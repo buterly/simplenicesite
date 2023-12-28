@@ -1,0 +1,38 @@
+/* Changing font of document */
+html {
+    font-size: 30px;
+    font-family: 'Edu TAS Beginner', sans-serif;
+    background-color: rgb(114, 190, 223);
+}
+
+body {
+  width: 800px;
+
+  /* 0 sets top-bottom zero
+     auto divieds left-right in half */
+  margin: 0px auto;
+  padding: 0 20px 20px 20px;
+
+  background-color: #46e5a8;
+  border: 5px solid black;
+  
+}
+
+h1 {
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 3px 3px 1px rgb(255, 254, 254);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+
+}
+
+p,li {
+  font-size: 25px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
